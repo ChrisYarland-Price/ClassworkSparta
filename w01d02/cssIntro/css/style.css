@@ -1,0 +1,21 @@
+body{
+	font-family: Helvetica;
+	font-size: 18px;
+}
+p {
+	color: orange;
+}
+ul li.done{
+	color: green;
+}
+#yo{
+	color: cyan;
+	background: yellow;
+	font-weight: bold;
+	padding: 20px;
+	border: 2px solid black;
+	margin: 0 40px;
+
+	display: inline-block;
+	marg
+}

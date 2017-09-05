@@ -1,0 +1,49 @@
+#outside_border{
+	width: 1000px;
+	height: 600px;
+	background-color: white;
+	display: inline-block;
+}
+.redline {
+	width: 100%;
+	height: 7.6%;
+	background-color: red;
+}
+.clearline {
+	width: 100%;
+	height: 7.6%;
+	
+}
+.shortline{
+	width: 55%;
+	display: inline-block;
+}
+.starbox{
+	background-color: blue;
+	height: 57.52%;
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+
+.star{
+   color: white;
+   font-size: 4em; 
+}
+p {
+	display: inline-block;
+	width: 13.6%;
+	margin: 0px;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+li {
+	text-align: center;
+	height: 35px;
+}
+body{
+	background-color: #999999;
+}
