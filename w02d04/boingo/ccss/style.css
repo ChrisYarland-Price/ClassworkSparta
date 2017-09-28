@@ -1,0 +1,22 @@
+body {
+	background-color: orange;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+.align{
+	margin: 30px auto;
+	text-align: center;
+}
+.ball{
+	height: 50px;
+	width: 50px;
+	border: 2px solid black;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px	;
+}
+.game{
+	display: none;	
+}
