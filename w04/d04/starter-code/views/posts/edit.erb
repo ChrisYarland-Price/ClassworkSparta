@@ -1,0 +1,17 @@
+	<h1>Edit Post</h1>
+	<form action="/<%= @post[:id] %>" method="POST">
+		<input type="hidden" name="_method" value="PUT">
+		<div>
+			<label for="title">Title: </label> <br />
+			<input type="text" name="title" value="<%= @post[:title] %>"><br/>
+		</div>
+		<div>
+			<label for="body">Post: </label><br/>
+			<textarea name="body"><%= @post[:body] %>
+			</textarea>
+		</div>
+		<div>
+			<input type="submit" name="Submit" value="Edit">
+		</div>
+		
+	</form>

@@ -1,0 +1,13 @@
+	<div>
+		<h1><%= @title %></h1>
+		<p><%= @body %></p>
+		<h1><%= @post[0][:title] %></h1>
+		<p><%= @post[0][:body] %></p>
+		<button>
+			<a href="/<%= @post[0][:id] %>/edit">Edit</a>
+		</button>
+		<form action="/<%= @post[0][:id] %>" method="POST">
+    		<input type="hidden" name="_method" value="DELETE">
+    		<input type="submit" value="Delete">
+		</form> 
+	</div>
