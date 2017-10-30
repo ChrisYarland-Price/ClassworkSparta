@@ -1,0 +1,7 @@
+<h1>A Single Book</h1>
+
+<%= @book%>
+<form class="delete" action="/books/id" method="POST">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Delete">
+</form> 
