@@ -20,7 +20,7 @@ describe "PunkApiTest" do
       it "returns all of the beers attributes" do
         expect(PunkApiTest.specific_beer(1)[0]['name']).to eql("Buzz")
         expect(PunkApiTest.specific_beer(1)[0]['ibu']).to eql(60)
-        expect(PunkApiTest.specific_beer(1)[0]['description']).to be_instance_of String
+        expect(PunkApiTest.specific_beer(1)[0]['description']).to be_instance_of Integer
         expect(PunkApiTest.specific_beer(22)[0]['name']).to eql("Devine Rebel (w/ Mikkeller)")
         expect(PunkApiTest.specific_beer(22)[0]['first_brewed']).to eql("12/2008")
         expect(Date.parse(PunkApiTest.specific_beer(22)[0]['first_brewed'])).to be_instance_of Date
