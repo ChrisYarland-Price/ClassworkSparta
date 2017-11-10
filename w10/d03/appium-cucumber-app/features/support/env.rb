@@ -1,6 +1,7 @@
 require 'appium_lib'
 require 'cucumber'
 require 'pry'
+require 'require_all'
 require_relative '../../lib/budget_app'
 
 def opts
@@ -8,7 +9,7 @@ def opts
    caps: {
       platformName: "Android",
       deviceName: "pixelemulator",
-      app: "/Users/tech-a49/Downloads/budgetwatch.apk"
+      app: ENV["BUDGETWATCH_FILE_PATH"]
     }
   }
 end
